@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #141414;
+    margin: 0;
+}
+
+.card {
+    background: rgb(138, 77, 77);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(100, 91, 91, 0.1);
+    width: 380px;
+    text-align: center;
+}
+
+button {
+    background-color: #e84142;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+.status-box {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.info-item {
+    margin: 10px 0;
+    text-align: left;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+/* Style khusus untuk Nama & NIM */
+.student-info {
+    margin-top: 15px;
+    background-color: #bdc3c7;
+    padding: 12px;
+    border-left: 4px solid #e84142;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+}
